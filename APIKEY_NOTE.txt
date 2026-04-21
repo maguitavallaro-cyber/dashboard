@@ -1,0 +1,9 @@
+// Reemplazá esta línea en analyzeReceiptWithClaude:
+// headers: { "Content-Type": "application/json" },
+// por:
+// headers: { 
+//   "Content-Type": "application/json",
+//   "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY,
+//   "anthropic-version": "2023-06-01",
+//   "anthropic-dangerous-direct-browser-access": "true"
+// },
